@@ -42,7 +42,7 @@ getgenv().library = {
     }
 }
 
-
+local library_name = menu.bg.pre.Text
 local ColorPicker_Gradients = {
     Menu_Outline = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1, library.libColor)},
     Tab_Underline = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(0.50, library.libColor), ColorSequenceKeypoint.new(1, Color3.fromRGB(34, 34, 34))},
